@@ -3,8 +3,10 @@
 
 terraform {
   cloud {
+    organization = "garage-inc"
+
     workspaces {
-      name = "learn-terraform-module-object-attributes"
+      name = "learn-modules"
     }
   }
 
